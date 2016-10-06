@@ -82,7 +82,7 @@ namespace Etalify.SalesTax.Actors
 
         private void Ready()
         {
-            Receive<RateLookupRequest>(x => string.IsNullOrEmpty(x.State)
+            Receive<RateLookupRequest>(x => string.IsNullOrEmpty(x.State) == false
                                             && x.State.Equals("WA", StringComparison.OrdinalIgnoreCase), LookupLocal);
 
             Receive<RateLookupRequest>(x => LookupRemote(x));
