@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etalify.SalesTax", "Etalify.SalesTax\Etalify.SalesTax.csproj", "{CA7E514F-07FB-4539-99E1-601837D0C0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etalify.SalesTax.Host", "Etalify.SalesTax.Host\Etalify.SalesTax.Host.csproj", "{C50EC799-474F-40CB-B5AA-7A663BAE4794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7E514F-07FB-4539-99E1-601837D0C0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7E514F-07FB-4539-99E1-601837D0C0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7E514F-07FB-4539-99E1-601837D0C0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7E514F-07FB-4539-99E1-601837D0C0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50EC799-474F-40CB-B5AA-7A663BAE4794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50EC799-474F-40CB-B5AA-7A663BAE4794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50EC799-474F-40CB-B5AA-7A663BAE4794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50EC799-474F-40CB-B5AA-7A663BAE4794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
